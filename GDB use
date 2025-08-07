@@ -1,0 +1,8 @@
+gdb ./hello
+break _start
+run
+set disassemble-flavor intel
+disassemble _start
+layout asm
+layout regs
+nexti
